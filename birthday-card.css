@@ -1,0 +1,63 @@
+/* font-family: 'Abyssinica SIL', serif;
+font-family: 'Alice', serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Old Standard TT', serif;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Titillium Web', sans-serif; */
+
+body {
+    background-image: url(Birthday/BirthdayCard.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+    color: black;
+}
+
+p {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(114, 110, 110);
+}
+
+span {
+    color: rgb(54, 51, 51);
+    text-shadow: 6px 6px 7px rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+}
+
+.textcontainer {
+    position: relative;
+    top: 130px;
+    width: 130px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.objects {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+}
+
+.sparkle {
+    position: absolute;
+    height: 500px;
+}
