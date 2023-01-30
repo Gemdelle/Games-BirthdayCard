@@ -28,7 +28,7 @@ h1 {
 
 p {
     font-family: 'Pinyon Script', cursive;
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
     color: rgb(114, 110, 110);
 }
@@ -41,8 +41,7 @@ span {
 
 .textcontainer {
     position: relative;
-    top: 130px;
-    width: 130px;
+    width: 10vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -53,11 +52,15 @@ span {
 
 .objects {
     margin: 0 auto;
-    width: 400px;
+    width: 13vw;
     display: flex;
+    height: 38vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .sparkle {
     position: absolute;
-    height: 500px;
+    height: 7vw;
+    width: 4vw;
 }
