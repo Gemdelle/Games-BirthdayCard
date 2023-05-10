@@ -19,6 +19,18 @@ body {
     position: relative;
 }
 
+.memotest-btn:hover,
+.fish-btn:hover {
+    transform: scale(110%);
+    transition: all 500ms ease-in-out;
+}
+
+.memotest-btn:not(:hover),
+.fish-btn:not(:hover) {
+    transform: scale(100%);
+    transition: all 500ms ease-in-out;
+}
+
 .memotest-btn {
     height: 6vw;
     width: 9vw;
